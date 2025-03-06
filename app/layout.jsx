@@ -1,4 +1,4 @@
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 import "@mantine/core/styles.css";
 
 import {
@@ -8,11 +8,10 @@ import {
 } from "@mantine/core";
 import "./globals.css";
 
-
 const dekko = localFont({
-  src: './Dekko-Regular.ttf',
-  display: 'swap',
-})
+  src: "./Dekko-Regular.ttf",
+  display: "swap",
+});
 export const metadata = {
   title: "PartFunds",
   description:
